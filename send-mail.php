@@ -1,6 +1,6 @@
 <?php
    // Composer autoload
-   require_once __DIR__ . '/vendor/autoload.php';
+   require_once "/home/u279829464/domains/common/composer/vendor/autoload.php";
 
    // Classes from PHPMailer
    use PHPMailer\PHPMailer\PHPMailer;
