@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", () => {
          });
 
          if (!response.ok) {
-            throw new Error("Server error");
+            throw new Error(response.text());
          }
 
          console.log(response);
